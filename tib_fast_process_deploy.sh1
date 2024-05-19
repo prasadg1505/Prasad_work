@@ -1,0 +1,97 @@
+#!/bin/ksh
+
+# TIBCO PARALLEL DEPLOYER
+#
+# CRMU Project (Jul 2008 by T&A)
+#
+
+LISTA=/sbTibco/tibcoesb/adm_script/scripts/$1
+PID=$(echo $LISTA | cut -d"." -f4)
+#PID=1234
+LOGPATH=$HOME/adm_script/scripts/log
+SCRIPTPATH=${HOME}/adm_script/scripts
+FLAGSTART=$2
+FLAGUNDEPLOY=$3
+FLAGDELETE=$4
+
+if [[ -z $1 ]]; then
+	echo
+	echo "USAGE:  $0 <list> [nostart/start] [noundeploy/undeploy] [nodelete/delete]"
+	echo
+	exit 1
+fi
+
+if [[ -z $2 ]]; then
+	echo
+	echo "ERROR:  Please specify the option: [nostart/start]"
+	echo "USAGE:  $0 <list> [nostart/start] [noundeploy/undeploy] [nodelete/delete]"
+	echo
+	exit 1
+fi
+
+if [[ -z $3 ]]; then
+	echo
+	echo "ERROR:  Please specify the option: [noundeploy/undeploy]"
+	echo "USAGE:  $0 <list> [nostart/start] [noundeploy/undeploy] [nodelete/delete]"
+	echo
+	exit 1
+fi
+
+if [[ -z $4 ]]; then
+	echo
+	echo "ERROR:  Please specify the option: [nodelete/delete]"
+	echo "USAGE:  $0 <list> [nostart/start] [noundeploy/undeploy] [nodelete/delete]"
+	echo
+	exit 1
+fi
+
+if [[ ! -s  $LISTA ]]; then
+    echo
+    echo "ERROR: File $LISTA does not exist"
+    echo
+    exit 1
+fi
+
+if [[ -z $PID ]] ; then
+	PID=123456
+fi
+
+SCRIPT=$(basename $0)
+LOGFILE=${LOGPATH}/${SCRIPT}.MAIN.$PID.log
+rm -f $LOGFILE
+touch ${LOGFILE}
+
+
+echo "******************************" | tee -a $LOGFILE
+integer i=1
+for line in $(cat $LISTA | grep -v "^#")
+do
+   EAR=$(echo $line | cut -d";" -f2)
+   CATEG=$(echo $line | cut -d";" -f1)
+   DATA=$(date +"%Y%m%d_%H%M%S")
+   EARDATE=$(date) 
+   echo ">>> Installing $EAR at $EARDATE..." | tee -a $LOGFILE
+   SINGLELOG=${LOGPATH}/$SCRIPT.$EAR.$CATEG.$DATA.log
+   touch ${SINGLELOG}
+   nohup ${SCRIPTPATH}/tibdeploy_new.sh $DOMAIN_NAME $EAR $EAR $CATEG $FLAGSTART $FLAGUNDEPLOY $FLAGDELETE >> ${SINGLELOG} 2>&1 &
+   echo ">>> ...see detailed log file $LOGPATH/$SCRIPT.$EAR.$DATA.log" | tee -a $LOGFILE
+   echo "******************************" | tee -a $LOGFILE
+   i=i+1
+   if [[ $i -gt $PARALLELDEPLOY  ]]; then
+		   wait
+		   i=1
+	 fi     
+done
+# Check if there are pending processes
+if [[ $i -gt 1 ]]; then
+    # Wait for all processes to end
+		wait
+fi
+
+ENDDATE=$(date)
+echo ">>> Installing finished at $ENDDATE" | tee -a $LOGFILE
+
+LOG_INPUT=$(basename $LOGFILE)
+
+$HOME/adm_script/scripts/tib_check_deploy.sh $LISTA $LOG_INPUT $FLAGSTART $FLAGUNDEPLOY $FLAGDELETE $PID
+

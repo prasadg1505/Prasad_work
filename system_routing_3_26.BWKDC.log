@@ -1,0 +1,16 @@
+
+SQL*Plus: Release 11.2.0.2.0 Production on Mon Aug 12 14:50:19 2013
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.2.0 - 64bit Production
+With the Partitioning, Automatic Storage Management, OLAP, Data Mining
+and Real Application Testing options
+
+SP2-0310: unable to open file "system_routing_3_26.sql"
+SQL> 
+SQL> Disconnected from Oracle Database 11g Enterprise Edition Release 11.2.0.2.0 - 64bit Production
+With the Partitioning, Automatic Storage Management, OLAP, Data Mining
+and Real Application Testing options

@@ -1,0 +1,17 @@
+#!/bin/ksh
+
+
+
+SDMT=”(DESCRIPTION=(LOAD_BALANCE=yes)(ADDRESS=(PROTOCOL=TCP)(HOST=dbcrmdbs60)(PORT=1584))(ADDRESS=(PROTOCOL=TCP)(HOST=dbcrmdbs61)(PORT=1584))(CONNECT_DATA=(SERVICE_NAME=sdmT)(SERVER=DEDICATED)))”
+
+sqlplus ESBAPP/esbapp123i@$SDMT <<EOF
+alter user ESBAPP identified by esbapp123i;
+
+CRMDH=”(DESCRIPTION=(ADDRESS_LIST=(FAILOVER=on)(LOAD_BALANCE=on)(ADDRESS=(PROTOCOL=TCP)(HOST=dbcrmdbs60.wind.root.it)(PORT=1543))(ADDRESS=(PROTOCOL=TCP)(HOST=dbcrmdbs61.wind.root.it)(PORT=1543)))(CONNECT_DATA=(SERVICE_NAME=crmdH)))”
+
+sqlplus ESBAPP/esbapp123h@$CRMDH <<EOF
+alter user ESBAPP identified by esbapp123i;
+
+
+exit
+EOF

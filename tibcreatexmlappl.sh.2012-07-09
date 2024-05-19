@@ -1,0 +1,85 @@
+#!/bin/ksh
+
+# tibcreatexmlappl.sh : create XML extract from applic
+# Usage : tibchkxml.sh <APP> <CATEG> 
+# Return: 0 OK  1 Error 2 Warning
+
+# Test INPUT Parameters
+
+# Global Variables
+TIB_APP=$1
+TIB_EAR=$1
+CATEG=$2
+TIB_APP_PATH=$REPOSITPRY_PATH/BW
+TIB_EAR_PATH=$TIB_APP_PATH/$TIB_APP/ear
+TIB_XML_DIR=$TIB_APP_PATH/$TIB_APP/xml
+TIB_LOG_DIR=$HOME/log
+TIB_DATA=$(date +%H%M_%Y%m%d)
+CREDFILE=$HOME/adm_script/scripts/cred.txt
+
+# Test INPUT Parameters
+paramNumber=1
+
+if test $# -lt ${paramNumber}
+ then
+  echo "\n Usage : $( basename $0 ) <APP> <CATEG>\n"
+  cd $PWD_DIR
+  exitstatus="2"
+  exit $exitstatus
+fi
+
+#
+# Compose option deploy
+#
+APPMANAGEOPT=" -app ${CATEG}/${TIB_APP} -domain $DOMAIN_NAME -out $TIB_LOG_DIR/${TIB_APP}_appl.xml -cred $CREDFILE -max -serialize"
+
+
+#
+# Execute command
+#
+cd $TIBCO_TRA_HOME_PATH/bin
+
+echo "*************************"
+echo " CREATE XML NEW       ..."
+echo "*************************"
+nohup ${TIBCO_TRA_HOME_PATH}/bin/AppManage -export $APPMANAGEOPT | tee -a ${TIB_LOG_DIR}/Deploy_${TIB_DOMAIN}_${TIB_APP}$TIB_DATA.err
+
+APPMANAGESTATUS=$?
+
+#
+# Error control of status
+#
+if test ${APPMANAGESTATUS} -ne 0
+ then
+  echo "\nERROR : XML diff for TIBCO Application \"${TIB_APP}\" failed."
+  echo "        See ApplicationManagement.log AppManage log file."
+  echo "        AppManage Error Code : ${APPMANAGESTATUS}  see Error Code List in TIBCO TRA Script documentation for more detail in ${TIB_LOG_DIR}/Deploy_${TIB_DOMAIN}_${TIB_APP}.err"
+  echo "       and in ${TIBCO_HOME}/tra/domain/${TIB_DOMAIN}/logs/ApplicationManagement.log"
+  echo "SW_WARN"
+  exitstatus="1"
+  exit $exitstatus
+fi
+
+#
+# Error control on failed
+#
+if [[ -n $(cat ${TIB_LOG_DIR}/Deploy_${TIB_DOMAIN}_${TIB_APP}$TIB_DATA.err | grep -i "Failed") ]]
+ then
+  echo " File error with notice:"
+  echo "\nERROR : XML diff of TIBCO Application \"${TIB_APP}\" failed."
+  echo "        See ApplicationManagement.log AppManage log file."
+  echo "        AppManage Error Code : ${APPMANAGESTATUS}  see Error Code List in TIBCO TRA Script documentation"
+  echo "For more detail in ${TIB_LOG_DIR}/Deploy_${TIB_DOMAIN}_${TIB_APP}.err"
+  echo "       and in ${TIBCO_HOME}/tra/domain/${TIB_DOMAIN}/logs/ApplicationManagement.log"
+  #rm $TIB_LOG_DIR/${TIB_APP}_new.xml
+  echo "SW_WARN"
+  exitstatus="1"
+  exit $exitstatus
+else
+  echo " xml diff of Application \"${TIB_APP}\" on Domain ${TIB_DOMAIN} Finished successfully.\n"
+fi
+
+#rm $TIB_LOG_DIR/${TIB_APP}_appl.xml
+exitstatus="0"
+exit $exitstatus
+

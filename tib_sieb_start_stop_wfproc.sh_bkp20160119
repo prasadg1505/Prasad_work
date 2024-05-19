@@ -1,0 +1,46 @@
+#!/bin/ksh
+
+if [[ $# -ne 1 ]]
+then
+        echo
+        echo "USAGE: $0 <start | stop | check>"
+        echo
+        echo "Start/Stop/Check Siebel work-batch manager"
+        echo
+        exit 1
+fi
+
+case $(hostname) in
+
+        crmsas52)       		SIEBHOST1=crmpec55
+								SIEBHOST2=crmpec53
+                                ;;
+
+        *)                      echo "ERROR: impossible to run $0 from $(hostname)"
+                                exit 1
+                                ;;
+esac
+
+COMM=$1
+
+if [[ $COMM != "stop" &&  $COMM != "start" && $COMM != "check" && $COMM != "kill" ]] ; then
+        echo
+        echo "ERROR: wrong parameter"
+        echo
+        echo "USAGE: $0 <start | stop | check | kill>"
+        echo
+        echo "Stop Siebel work/batch manager"
+        echo
+        exit 1
+fi
+
+
+echo
+
+PASS=st4rtr3k
+
+ssh $SIEBHOST1 -l siebmast ". /sbsieb/home/siebmast/.profile >/dev/null 2>&1 ; cd /sbsieb/home/siebmast/tibadmin ; sieb_start_stop_wfproc.sh $COMM $PASS ; cat ${COMM}.log"
+ssh $SIEBHOST2 -l siebmast ". /sbsieb/home/siebmast/.profile >/dev/null 2>&1 ; cd /sbsieb/home/siebmast/tibadmin ; sieb_start_stop_wfproc.sh $COMM $PASS ; cat ${COMM}.log"
+
+echo
+

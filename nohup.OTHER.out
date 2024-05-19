@@ -1,0 +1,4 @@
+
+WARNING: file /fsTibcoESB/tibcoesb/repository/BW/list/AppManage.batch found. Please check if another deploy is in progress
+ps will be executed. If any deploy is running, pleasse remove file /fsTibcoESB/tibcoesb/repository/BW/list/AppManage.batch before running deploy again
+

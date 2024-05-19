@@ -1,0 +1,5 @@
+-e 			 [1m================================================
+-e 			 Action Required. Clear up space to avoid issues.
+-e 			 ================================================
+-e [01;31m[1m /sbTibcoServer mount usage is at 86 %
+-e [00m[m(B /fsTibcoESB mount usage is at 42 %

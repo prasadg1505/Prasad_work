@@ -1,0 +1,470 @@
+[YOU HAVE NEW MAIL]
+
+*-----ORACLE Environments-----------------------------------*
+
+ORACLE_HOME---------> /sbrdbms/app/oracle/product/11.2.0.2/db_clie                                    
+ORACLE_SID----------> BWKDC                                 
+TWO_TASK------------> BWKDC                                   
+
+*-----------------------------------------------------------*
+
+[1mTIBCO ADMINISTRATION INTEGRATION TEST ENVIRONMENT : ESBINTH - TIBCO UPGRADE - ORACLE 11[m
+
+ssh: connect to host 10.8.101.12 port 22: Connection timed out
+lost connection
+ssh: connect to host 10.8.101.12 port 22: Connection timed out
+ssh: connect to host 10.8.101.12 port 22: Connection timed out
+[YOU HAVE NEW MAIL]
+
+*-----ORACLE Environments-----------------------------------*
+
+ORACLE_HOME---------> /sbrdbms/app/oracle/product/11.2.0.2/db_clie                                    
+ORACLE_SID----------> BWKDC                                 
+TWO_TASK------------> BWKDC                                   
+
+*-----------------------------------------------------------*
+
+[1mTIBCO ADMINISTRATION INTEGRATION TEST ENVIRONMENT : ESBINTH - TIBCO UPGRADE - ORACLE 11[m
+
+[YOU HAVE NEW MAIL]
+
+*-----ORACLE Environments-----------------------------------*
+
+ORACLE_HOME---------> /sbrdbms/app/oracle/product/11.2.0.2/db_clie                                    
+ORACLE_SID----------> BWKDC                                 
+TWO_TASK------------> BWKDC                                   
+
+*-----------------------------------------------------------*
+
+[1mTIBCO ADMINISTRATION INTEGRATION TEST ENVIRONMENT : ESBINTH - TIBCO UPGRADE - ORACLE 11[m
+
+[YOU HAVE NEW MAIL]
+
+*-----ORACLE Environments-----------------------------------*
+
+ORACLE_HOME---------> /sbrdbms/app/oracle/product/11.2.0.2/db_clie                                    
+ORACLE_SID----------> BWKDC                                 
+TWO_TASK------------> BWKDC                                   
+
+*-----------------------------------------------------------*
+
+[1mTIBCO ADMINISTRATION INTEGRATION TEST ENVIRONMENT : ESBINTH - TIBCO UPGRADE - ORACLE 11[m
+
+No such file or directory
+./svecchiamento_bwkdc.ksh[32]: /sbTibco/tibcoesb/scripts/test.sql: cannot open
+./svecchiamento_bwkdc.ksh[33]: EOF:  not found
+[YOU HAVE NEW MAIL]
+
+*-----ORACLE Environments-----------------------------------*
+
+ORACLE_HOME---------> /sbrdbms/app/oracle/product/11.2.0.2/db_clie                                    
+ORACLE_SID----------> BWKDC                                 
+TWO_TASK------------> BWKDC                                   
+
+*-----------------------------------------------------------*
+
+[1mTIBCO ADMINISTRATION INTEGRATION TEST ENVIRONMENT : ESBINTH - TIBCO UPGRADE - ORACLE 11[m
+
+./svecchiamento_bwkdc.ksh[33]: EOF:  not found
+[YOU HAVE NEW MAIL]
+
+*-----ORACLE Environments-----------------------------------*
+
+ORACLE_HOME---------> /sbrdbms/app/oracle/product/11.2.0.2/db_clie                                    
+ORACLE_SID----------> BWKDC                                 
+TWO_TASK------------> BWKDC                                   
+
+*-----------------------------------------------------------*
+
+[1mTIBCO ADMINISTRATION INTEGRATION TEST ENVIRONMENT : ESBINTH - TIBCO UPGRADE - ORACLE 11[m
+
+./svecchiamento_bwkdc.ksh[33]: EOF:  not found
+
+TIBCO Enterprise Message Service.
+Copyright 2003-2012 by TIBCO Software Inc.
+All rights reserved.
+
+Version 6.3.0 V5 1/27/2012
+
+2022-08-02 18:15:27.892 Process started from '/sbTibcoServer/tibcoesb/products/tibcobw/ems/6.3/bin/tibemsd64'.
+2022-08-02 18:15:27.892 Process Id: 417838
+2022-08-02 18:15:27.892 Hostname: crmsas52
+2022-08-02 18:15:27.892 Hostname IP address: 10.139.67.27
+2022-08-02 18:15:27.892 Hostname IP address: 10.139.67.27
+2022-08-02 18:15:27.892 Reading configuration from '/sbTibcoServer/tibcoesb/ems/conf/bw/tibemsdBW.conf'.
+2022-08-02 18:15:27.895 Logging into file '/fsTibcoESB/tibcoesb/products/tibcobw/tra/domain/ESBINTH/application/logs/EMS_47222.log'
+2022-08-02 18:15:27.896 Server name: 'EMS_ESB_CORE'.
+2022-08-02 18:15:27.896 Storage Location: '/sbTibcoServer/tibcoesb/ems/datastore/bw'.
+2022-08-02 18:15:27.896 Routing is enabled.
+2022-08-02 18:15:27.896 Authorization is disabled.
+2022-08-02 18:15:27.920 Accepting connections on tcp://crmsas52:47222.
+2022-08-02 18:15:27.920 Recovering state, please wait.
+.......
+
+2022-08-02 18:15:34.464 Recovered 1655 messages.
+2022-08-02 18:15:34.465 Server is active.
+2022-08-02 18:15:34.472 WARNING: Route Warning: host of this name does not exist: esbcrma01
+2022-08-02 18:15:34.473 Route 'EMS-ESBEVOINT' accepted from host 'esbcrma01' with zone 'default_mhop_zone:mhop'.
+2022-08-02 18:15:34.474 Route 'EMS-ESBEVOINT' disconnected, connection id=2
+2022-08-02 18:15:34.516 WARNING: Route Warning: host of this name does not exist: esbcrma01
+2022-08-02 18:15:34.516 Route 'EMS-ESBEVOINT' accepted from host 'esbcrma01' with zone 'default_mhop_zone:mhop'.
+
+TIBCO Enterprise Message Service.
+Copyright 2003-2012 by TIBCO Software Inc.
+All rights reserved.
+
+Version 6.3.0 V5 1/27/2012
+
+2022-08-02 18:15:42.944 Process started from '/sbTibcoServer/tibcoesb/products/tibcobw/ems/6.3/bin/tibemsd64'.
+2022-08-02 18:15:42.944 Process Id: 340024
+2022-08-02 18:15:42.944 Hostname: crmsas52
+2022-08-02 18:15:42.944 Hostname IP address: 10.139.67.27
+2022-08-02 18:15:42.944 Hostname IP address: 10.139.67.27
+2022-08-02 18:15:42.944 Reading configuration from '/sbTibcoServer/tibcoesb/ems/conf/slom/tibemsdSLOM.conf'.
+2022-08-02 18:15:42.949 Logging into file '/fsTibcoESB/tibcoesb/products/tibcobw/tra/domain/ESBINTH/application/logs/EMS_37222.log'
+2022-08-02 18:15:42.952 Server name: 'EMS_ESB_CORE'.
+2022-08-02 18:15:42.952 Storage Location: '/sbTibcoServer/tibcoesb/ems/datastore/slom'.
+2022-08-02 18:15:42.952 Routing is disabled.
+2022-08-02 18:15:42.952 Authorization is disabled.
+2022-08-02 18:15:42.980 Accepting connections on tcp://crmsas52:37222.
+2022-08-02 18:15:42.980 Recovering state, please wait.
+2022-08-02 18:15:43.253 Recovered 687 messages.
+2022-08-02 18:15:43.272 Server is active.
+
+TIBCO Enterprise Message Service.
+Copyright 2003-2012 by TIBCO Software Inc.
+All rights reserved.
+
+Version 6.3.0 V5 1/27/2012
+
+2022-08-02 18:15:54.964 Process started from '/sbTibcoServer/tibcoesb/products/tibcobw/ems/6.3/bin/tibemsd64'.
+2022-08-02 18:15:54.965 Process Id: 393332
+2022-08-02 18:15:54.965 Hostname: crmsas52
+2022-08-02 18:15:54.965 Hostname IP address: 10.139.67.27
+2022-08-02 18:15:54.965 Hostname IP address: 10.139.67.27
+2022-08-02 18:15:54.965 Reading configuration from '/sbTibcoServer/tibcoesb/ems/conf/bcp/tibemsdBCP.conf'.
+2022-08-02 18:15:54.969 Logging into file '/fsTibcoESB/tibcoesb/products/tibcobw/tra/domain/ESBINTH/application/logs/EMS_57222.log'
+2022-08-02 18:15:54.971 Server name: 'EMS_BCP_CORE'.
+2022-08-02 18:15:54.971 Storage Location: '/sbTibcoServer/tibcoesb/ems/datastore/bcp'.
+2022-08-02 18:15:54.971 Routing is disabled.
+2022-08-02 18:15:54.971 Authorization is disabled.
+2022-08-02 18:15:54.994 Accepting connections on tcp://crmsas52:57222.
+2022-08-02 18:15:54.994 Recovering state, please wait.
+2022-08-02 18:15:55.050 Recovered 4 messages.
+2022-08-02 18:15:55.051 Server is active.
+2022-08-02 18:30:04.525 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-02 18:30:04.760 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-02 18:30:05.032 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-02 18:30:05.312 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-02 18:30:05.588 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-02 18:30:05.895 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-02 18:45:05.481 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-02 18:45:05.716 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-02 18:45:05.970 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-02 18:45:06.246 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-02 18:45:06.526 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-02 18:45:06.849 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-02 19:00:05.504 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-02 19:00:05.553 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-02 19:00:05.726 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-02 19:00:05.754 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-02 19:00:05.945 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-02 19:00:06.016 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-02 19:00:06.246 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-02 19:00:06.289 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-02 19:00:06.490 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-02 19:00:06.558 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-02 19:00:06.774 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-02 19:00:06.815 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-02 19:15:04.889 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-02 19:15:05.126 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-02 19:15:05.422 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-02 19:15:05.700 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-02 19:15:06.005 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-02 19:15:06.293 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-02 19:30:05.240 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-02 19:30:05.494 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-02 19:30:05.750 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-02 19:30:06.030 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-02 19:30:06.320 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-02 19:30:06.615 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-02 19:45:05.836 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-02 19:45:06.101 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-02 19:45:06.369 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-02 19:45:06.691 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-02 19:45:06.968 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-02 19:45:07.264 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-02 20:00:05.662 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-02 20:00:05.931 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-02 20:00:06.215 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-02 20:00:06.249 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-02 20:00:06.444 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-02 20:00:06.539 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-02 20:00:06.765 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-02 20:00:06.766 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-02 20:00:06.989 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-02 20:00:06.997 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-02 20:15:04.884 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-02 20:15:05.120 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-02 20:15:05.383 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-02 20:15:05.662 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-02 20:15:05.951 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-02 20:15:06.247 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-02 20:30:05.242 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-02 20:30:05.509 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-02 20:30:05.773 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-02 20:30:06.025 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-02 20:30:06.328 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-02 20:30:06.640 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-02 20:45:05.294 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-02 20:45:05.563 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-02 20:45:05.833 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-02 20:45:06.127 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-02 20:45:06.396 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-02 20:45:06.746 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 05:00:05.065 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 05:00:05.341 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 05:00:05.600 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 05:00:05.862 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 05:00:06.142 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 05:00:06.452 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 05:15:05.448 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 05:15:05.686 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 05:15:05.965 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 05:15:06.211 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 05:15:06.496 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 05:15:06.829 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 05:30:04.898 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 05:30:05.185 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 05:30:05.438 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 05:30:05.723 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 05:30:06.040 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 05:30:06.331 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 05:45:05.131 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 05:45:05.391 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 05:45:05.638 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 05:45:05.922 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 05:45:06.207 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 05:45:06.563 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 06:00:04.836 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 06:00:05.082 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 06:00:05.345 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 06:00:05.628 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 06:00:05.907 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 06:00:06.215 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 06:15:05.060 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 06:15:05.300 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 06:15:05.557 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 06:15:05.803 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 06:15:06.101 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 06:15:06.435 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 06:30:05.134 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 06:30:05.373 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 06:30:05.622 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 06:30:05.869 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 06:30:06.120 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 06:30:06.383 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 06:45:04.813 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 06:45:05.055 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 06:45:05.310 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 06:45:05.586 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 06:45:05.856 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 06:45:06.155 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 07:00:05.664 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 07:00:05.722 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 07:00:05.903 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 07:00:05.944 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 07:00:06.126 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 07:00:06.177 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 07:00:06.385 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 07:00:06.421 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 07:00:06.658 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 07:00:06.708 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 07:00:06.943 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 07:00:06.967 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 07:15:04.901 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 07:15:05.177 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 07:15:05.489 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 07:15:05.761 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 07:15:06.060 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 07:15:06.398 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 07:15:14.276 Purged 2 queue messages.
+2022-08-03 07:30:05.263 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 07:30:05.536 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 07:30:05.828 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 07:30:06.180 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 07:30:06.487 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 07:30:06.805 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 07:45:05.140 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 07:45:05.437 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 07:45:05.713 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 07:45:06.012 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 07:45:06.304 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 07:45:06.628 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 08:00:05.669 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 08:00:05.940 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 08:00:06.046 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 08:00:06.240 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 08:00:06.241 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 08:00:06.450 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 08:00:06.453 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 08:00:06.655 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 08:00:06.661 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 08:00:06.870 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 08:00:06.872 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 08:00:19.276 Purged 3 queue messages.
+2022-08-03 08:15:05.124 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 08:15:05.369 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 08:15:05.641 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 08:15:05.922 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 08:15:06.226 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 08:15:06.501 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 08:15:28.279 Purged 1 queue message.
+2022-08-03 08:30:04.885 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 08:30:05.126 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 08:30:05.367 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 08:30:05.640 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 08:30:05.950 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 08:30:06.258 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 08:45:05.371 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 08:45:05.695 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 08:45:05.960 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 08:45:06.253 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 08:45:06.548 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 08:45:06.856 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 09:00:05.307 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 09:00:05.576 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 09:00:05.887 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 09:00:06.183 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 09:00:06.201 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 09:00:06.423 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 09:00:06.506 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 09:00:06.735 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 09:00:06.748 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 09:15:05.151 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 09:15:05.413 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 09:15:05.654 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 09:15:05.933 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 09:15:06.195 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 09:15:06.481 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 09:30:05.344 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 09:30:05.572 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 09:30:05.826 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 09:30:06.098 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 09:30:06.381 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 09:30:06.687 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 09:45:05.457 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 09:45:05.707 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 09:45:05.981 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 09:45:06.293 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 09:45:06.560 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 09:45:06.859 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 10:00:05.814 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 10:00:05.822 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 10:00:06.006 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 10:00:06.078 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 10:00:06.280 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 10:00:06.300 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 10:00:06.504 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 10:00:06.587 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 10:00:06.795 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 10:00:06.816 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 10:00:07.080 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 10:00:07.114 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 10:15:05.122 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 10:15:05.370 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 10:15:05.703 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 10:15:06.010 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 10:15:06.339 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 10:15:06.656 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 10:30:05.317 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 10:30:05.553 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 10:30:05.850 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 10:30:06.089 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 10:30:06.411 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 10:30:06.719 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 10:45:05.380 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 10:45:05.638 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 10:45:05.915 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 10:45:06.160 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 10:45:06.483 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 10:45:06.807 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 11:00:05.159 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 11:00:05.442 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 11:00:05.510 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 11:00:05.710 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 11:00:05.744 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 11:00:05.953 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 11:00:06.056 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 11:00:06.291 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 11:00:06.295 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 11:00:06.512 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 11:00:06.515 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 11:15:05.978 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 11:15:06.282 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 11:15:06.605 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 11:15:06.962 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 11:15:07.334 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 11:15:07.705 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 11:30:05.999 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 11:30:06.278 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 11:30:06.591 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 11:30:06.888 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 11:30:07.225 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 11:30:07.543 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 11:45:05.464 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 11:45:05.708 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 11:45:05.996 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 11:45:06.278 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 11:45:06.551 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 11:45:06.827 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 12:00:05.195 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 12:00:05.441 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 12:00:05.469 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 12:00:05.750 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 12:00:05.778 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 12:00:06.070 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 12:00:06.131 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 12:00:06.450 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 12:00:06.484 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 12:00:06.841 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 12:00:06.847 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 12:15:05.362 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 12:15:05.602 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 12:15:05.867 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 12:15:06.135 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 12:15:06.439 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 12:15:06.757 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 12:30:05.020 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 12:30:05.269 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 12:30:05.562 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 12:30:05.878 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 12:30:06.187 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 12:30:06.479 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 12:45:04.993 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 12:45:05.239 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 12:45:05.487 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 12:45:05.765 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 12:45:06.068 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 12:45:06.401 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 13:00:05.138 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.1'
+2022-08-03 13:00:05.389 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.3'
+2022-08-03 13:00:05.662 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.18'
+2022-08-03 13:00:05.932 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.17'
+2022-08-03 13:00:06.214 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.46'
+2022-08-03 13:00:06.542 [admin@bilvas51]: purged queue 'wind.svil.adapter.rr.47'
+2022-08-03 13:14:49.363 Server shutting down.
+2022-08-03 13:14:49.364 Server shutting down.
+Closing transports......OK
+Closing connections.....OK
+Closing storage.........OK
+2022-08-03 13:14:51.135 Shutdown complete.
+Closing transports......OK
+Closing connections.....OK
+Closing storage.........OK
+2022-08-03 13:14:51.148 Shutdown complete.
+2022-08-03 13:14:51.260 Server shutting down.
+Closing transports......OK
+Closing connections.....OK
+Closing storage.........OK
+2022-08-03 13:14:52.311 Shutdown complete.

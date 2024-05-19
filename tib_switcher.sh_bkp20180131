@@ -1,0 +1,200 @@
+#!/bin/ksh
+
+# TIBCO PARALLEL DEPLOYER
+#
+# CRMU Project (Jul 2008 by T&A)
+#
+
+OPTION="KO"
+while [[ $OPTION = "KO" ]] ; do
+        clear
+        echo
+        echo
+        echo "\033[1m                            Wind - Progetto CRM Unico           \033[m"
+        echo "                         - Tibco Administration Tools -                    "
+        echo "                         - Stub/Integration Switcher -                        "
+        echo
+        echo "                           ---> \033[7mChoose Options\033[m <---             "
+        echo
+        echo
+        echo "\033[1m  1\033[m   Switch to stub"
+        echo
+        echo "\033[1m  2\033[m   Switch to integration"
+        echo
+        read ANS?"  Select option ([A] to abort): "
+
+        case $ANS in
+          1)    MODE="STUB"
+                        OPTION="OK"
+                        ;;
+          2)    MODE="INT"
+                        OPTION="OK"
+                        ;;
+                A|a)exit 0;;
+          *)    OPTION="KO";;
+        esac
+done
+
+OPTION="KO"
+while [[ $OPTION = "KO" ]] ; do
+        clear
+        echo
+        echo
+        echo "\033[1m                            Wind - Progetto CRM Unico           \033[m"
+        echo "                         - Tibco Administration Tools -                    "
+        echo "                         - Stub/Integration Switcher -                        "
+        echo
+        echo "                           ---> \033[7mChoose engine\033[m <---             "
+        echo
+        echo
+        echo "\033[1m  1\033[m   esb2CnsSdc"
+        echo
+        echo "\033[1m  2\033[m   esb2CnsSdm"
+        echo
+        echo "\033[1m  3\033[m   esb2mtfs"
+        echo
+        echo "\033[1m  4\033[m   esb2sap"
+        echo
+        echo "\033[1m  5\033[m   esb2sdm"
+        echo
+        echo "\033[1m  6\033[m   pam_nms_ndb2crm"
+        echo
+        echo "\033[1m  7\033[m   esb2cvp"
+        echo
+	echo "\033[1m  8\033[m   esb2jasper"
+	echo	
+        read ANS?"  Select option ([A] to abort): "
+
+        case $ANS in
+          1)    EAR="esb2CnsSdc"
+                        OPTION="OK"
+                        FOLDER="ESB"
+                        ;;
+          2)    EAR="esb2CnsSdm"
+                        OPTION="OK"
+                        FOLDER="INT"
+                        ;;
+          3)    EAR="esb2mtfs"
+                        OPTION="OK"
+                        FOLDER="ESB"
+                        ;;
+          4)    EAR="esb2sap"
+                        OPTION="OK"
+                        FOLDER="INT"
+                        ;;
+          5)    EAR="esb2sdm"
+                        OPTION="OK"
+                        FOLDER="INT"
+                        ;;
+          6)    EAR="pam_nms_ndb2crm"
+                        OPTION="OK"
+                        FOLDER="ESB"
+                        ;;
+          7)    EAR="esb2cvp"
+                        OPTION="OK"
+                        FOLDER="INT"
+                        ;;
+	8)	EAR="esb2jasper"
+			OPTION="OK"
+			FOLDER="ESB"
+			;;
+                A|a)exit 0
+                        ;;
+          *)    OPTION="KO"
+                        ;;
+        esac
+done
+
+CRED_FILE=$HOME/adm_script/scripts/cred.txt
+
+#IS_RUNNING=`ps  -o "%u:%p:%a" -fe |grep -v grep |egrep 'on\/${EAR}\/${EAR}|on\/${EAR}\-1\/${EAR}\-1|on\/${EAR}\-1\-1\/${EAR}\-1\-1' | wc -l`
+#PID=$(ps -ef | grep -v grep | grep $EAR | grep -iv adp | awk '{print $2}')
+PIDS=$(ps -ef | grep -v grep | grep $EAR | grep -iv adp |grep -iv stubautomatico | grep -iv stubasincrono | awk '{print $2}' | grep -iv grep)
+
+echo $PIDS | awk '{if (NF > max) max = NF; for (i = 1; i <= max; i++) print $i}' > .lista_pid
+echo "\n\nStopping service $EAR....\c"
+
+if [[ -s .lista_pid ]] ; then
+        #integer PID_NUM=$(cat .lista_pid | wc -l)
+        for line in $(cat .lista_pid) ; do
+                nohup ${TIBCO_TRA_HOME_PATH}/bin/AppManage -stop -app $FOLDER/$EAR -domain $TIB_DOMAIN -cred $CRED_FILE > nohup.out.$FOLDER 2>&1 &
+                nohup ${TIBCO_TRA_HOME_PATH}/bin/AppManage -stop -app STUB/$EAR -domain $TIB_DOMAIN -cred $CRED_FILE > nohup.out.STUB 2>&1 &
+				if [[ $EAR = "esb2sap" ]] ; then
+						nohup ${TIBCO_TRA_HOME_PATH}/bin/AppManage -stop -app ESB/esb2sap -domain $TIB_DOMAIN -cred $CRED_FILE >> nohup.out.ESB 2>&1 &
+#						nohup ${TIBCO_TRA_HOME_PATH}/bin/AppManage -stop -app POS/esb2sap -domain $TIB_DOMAIN -cred $CRED_FILE > nohup.out.POS 2>&1 &
+						nohup ${TIBCO_TRA_HOME_PATH}/bin/AppManage -stop -app ESB/esb2SapStubModemI -domain $TIB_DOMAIN -cred $CRED_FILE >> nohup.out.ESB 2>&1
+				fi
+		if [[ $EAR = "esb2jasper" ]] ; then
+			nohup ${TIBCO_TRA_HOME_PATH}/bin/AppManage -stop -app ESB/esb2stubJasper -domain $TIB_DOMAIN -cred $CRED_FILE > nohup.out.STUB 2>&1 &		fi				
+#               if [[ $EAR = "esb2sdm" ]] ; then
+#                       nohup ${TIBCO_TRA_HOME_PATH}/bin/AppManage -stop -app STUB/esb2sdmAdp -domain $TIB_DOMAIN -cred $CRED_FILE > nohup.out.STUB 2>&1 &
+#                       nohup ${TIBCO_TRA_HOME_PATH}/bin/AppManage -stop -app ESB/esb2sdmAdp -domain $TIB_DOMAIN -cred $CRED_FILE > nohup.out.ESB 2>&1 &
+#               fi
+        done
+        CHECK=TRUE
+        integer i=0
+        while [[ $CHECK = "TRUE" ]] ; do
+                sleep 15
+                PROCESS=$(ps -ef | grep -v grep | grep $EAR | grep -iv adp | grep -iv stubautomatico |grep -iv stubasincrono | awk '{print $2}')
+                i=$i+10
+                if [[ $i = 40  &&  ! -z $PROCESS ]] ; then
+                        for PID in $(cat .lista_pid) ; do
+                                kill -9 $PID
+                                CHECK=TRUE
+                        done
+                fi
+                if [[ -z $PROCESS ]] ; then
+                        CHECK="FALSE"
+                fi
+        done
+fi
+rm -f .lista_pid
+
+echo "done"
+
+CHECK=$(ps -ef | grep -v grep | grep $EAR | grep -iv adp | grep -iv stubautomatico |grep -iv stubasincrono | awk '{print $2}')
+
+if [[ -z $CHECK ]] ; then
+        echo "$EAR successfully stopped!!\n\n"
+        rm -f switch.out
+        if [[ $MODE = "STUB" ]] ; then
+                echo "Starting $EAR in STUB mode.....\c"
+                echo "done!!\n\n"
+                ${TIBCO_TRA_HOME_PATH}/bin/AppManage -start -app STUB/$EAR -domain $TIB_DOMAIN -cred $CRED_FILE > switch.out 2>&1
+				if [[ $EAR = "esb2sap" ]] ; then
+#						${TIBCO_TRA_HOME_PATH}/bin/AppManage -start -app ESB/esb2sap -domain $TIB_DOMAIN -cred $CRED_FILE >> nohup.out.ESB 2>&1
+						sleep 10
+						${TIBCO_TRA_HOME_PATH}/bin/AppManage -start -app ESB/esb2SapStubModemI -domain $TIB_DOMAIN -cred $CRED_FILE >> nohup.out.ESB 2>&1
+				fi
+		if [[ $EAR = "esb2jasper" ]] ; then
+			${TIBCO_TRA_HOME_PATH}/bin/AppManage -start -app ESB/esb2stubJasper  -domain $TIB_DOMAIN -cred $CRED_FILE >> nohup.out.ESB 2>&1
+		fi
+#               if [[ $EAR = "esb2sdm" ]] ; then
+#                        nohup ${TIBCO_TRA_HOME_PATH}/bin/AppManage -stop -app STUB/esb2sdmAdp -domain $TIB_DOMAIN -cred $CRED_FILE >> nohup.out.STUB 2>&1 &
+#               fi
+                sleep 8
+        else
+                echo "Starting $EAR in integration mode....\c"
+                ${TIBCO_TRA_HOME_PATH}/bin/AppManage -start -app $FOLDER/$EAR -domain $TIB_DOMAIN -cred $CRED_FILE > switch.out 2>&1
+		if [[ $EAR = "esb2sap" ]] ; then
+			nohup ${TIBCO_TRA_HOME_PATH}/bin/AppManage -start -app ESB/esb2sap -domain $TIB_DOMAIN -cred $CRED_FILE >> nohup.out.ESB 2>&1
+#			nohup ${TIBCO_TRA_HOME_PATH}/bin/AppManage -start -app POS/esb2sap -domain $TIB_DOMAIN -cred $CRED_FILE >> nohup.out.ESB 2>&1
+		fi
+#               if [[ $EAR = "esb2sdm" ]] ; then
+                        nohup ${TIBCO_TRA_HOME_PATH}/bin/AppManage -start -app ESB/esb2sdmAdp -domain $TIB_DOMAIN -cred $CRED_FILE >> nohup.out.ESB 2>&1 &
+#               fi
+                sleep 8
+                echo "done!!\n\n"
+        fi
+        START=$(grep -i failed switch.out)
+        if [[ -z $START ]] ; then
+                echo "Switch successfully completed. Please wait 30 seconds to allow the interface to open all the services."
+                sleep 30
+        else
+                echo "An error occurred while tryng to start $EAR. Please retry"
+                exit 1
+        fi
+else
+        echo "An error occurred while tryng to stop $EAR. Please retry"
+        exit 1
+fi

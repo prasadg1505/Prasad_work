@@ -1,0 +1,56 @@
+#!/bin/ksh
+
+if [[ $# -ne 1 ]]
+then
+	echo
+	echo "USAGE: $0 <start | stop | check>"
+	echo
+	echo "Start/Stop/Check Siebel work-batch manager"
+	echo
+	exit 1
+fi
+
+case $(hostname) in
+
+	crmsas52)	SIEBHOST1=crmsas51
+			SIEBHOST2=crmsas53
+			SIEBHOST3=crmsas63
+													;;
+	crmsas58.wind.root.it)	SIEBHOST=crmsas57
+													;;
+	
+	esbcas03|esbcas04)  		SIEBHOST=siebnfscrmp01
+													;;
+
+	*) 											echo "ERROR: impossible to run $0 from $(hostname)"
+													exit 1
+													;;
+esac
+
+COMM=$1
+
+if [[ $COMM != "stop" &&  $COMM != "start" && $COMM != "check" && $COMM != "kill" ]] ; then 
+	echo
+	echo "ERROR: wrong parameter"
+	echo
+        echo "USAGE: $0 <start | stop | check | kill>"
+        echo
+        echo "Stop Siebel work/batch manager"
+        echo
+        exit 1
+fi
+
+
+echo
+#echo "Siebel srvrmgr password:\c"
+#PASS=$(./getpwd.pl)
+PASS=st4rtr3k
+
+rsh $SIEBHOST1 -l siebmast ". /sbsieb/siebmast/.profile >/dev/null 2>&1 ; cd /sbsieb/siebmast/tibadmin ; sieb_start_stop_wfproc.sh $COMM $PASS ; cat ${COMM}.log"
+
+rsh $SIEBHOST2 -l siebmast ". /sbsieb/siebmast/.profile >/dev/null 2>&1 ; cd /sbsieb/siebmast/tibadmin ; sieb_start_stop_wfproc.sh $COMM $PASS ; cat ${COMM}.log"
+PASS=sadminh
+rsh $SIEBHOST3 -l siebmast ". /sbsieb/siebmast/.profile >/dev/null 2>&1 ; cd /sbsieb/siebmast/tibadmin ; sieb_start_stop_wfproc.sh $COMM $PASS ; cat ${COMM}.log"
+
+echo
+
