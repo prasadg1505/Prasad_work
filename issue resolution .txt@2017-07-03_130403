@@ -1,0 +1,816 @@
+Order id - 7-6406578540
+
+http://crmsas52.wind.root.it:8181/SAPOrderOutEndpoint0
+
+http://crmsas52.wind.root.it:10004/SAPOrderOutEndpoint0
+
+-Deatis:- then order id 
+if you able to id_odl_crm that order id then ESb issue or else sibel issue.
+
+
+IT:- this order issue that time below interface are in start up same ST also
+
+==ESB status ==
+esb2CnsSdc -- ESB (Stub is in stopped)
+esb2CnsSdm -- Stub---only two interfaces int and stub
+esb2sdm -- Stub 
+esb2sap--STUB
+esb2sap--poc allways running
+esb2sap--INT stopped
+
+INT start i t should be AD alos start.
+
+/wep/WideEventProcessor
+H environment-IT
+c-environmet -ST
+
+Seibal A-IT
+********************************************************
+
+Order id -7-6406881068
+Contract id - 1006406881061
+
+7-6421962610
+
+
+*************************************************
+bilavas51 PDF issue
+********************************
+
+
+[bilvas51]/sbcdpostel/postelpp->ps -ef | grep cdunix | grep -v grep
+    root  3631  2381   0 12:20:48 ?           0:00 /sbcdpostel/cdunix/ndm/bin/cdpmgr -i /sbcdpostel/cdunix/ndm/cfg/windsvil/initpa
+    root  3630  2381   0 12:20:48 pts/11      0:00 cdstatm -i/sbcdpostel/cdunix/ndm/cfg/windsvil/initparm.cfg
+	''
+	
+	*********************************************************************
+	
+	
+	queeu of SDM issue
+	
+	[‎9/‎15/‎2016 8:59 PM] Caruso, G.: 
+no prasad
+now works
+please reply on email
+i have purge the queue
+and stop all bw sdm
+[‎9/‎15/‎2016 9:00 PM] Caruso, G.: 
+after i restart only sdmcnsstub and adp
+
+	
+	
+	
+	
+
+how delelete old logs:
+
+logine with ipusr to main server
+
+df -k
+then cd perticular directiory
+
+then type logs
+
+delete error log and some one log
+
+then we have to do start process sntinals.
+
+
+
+swstart p
+
+ps -fu ipusr
+
+swstart
+
+
+
+SOA it shoud be running state
+
+Thx                                                                          
+Stefano
+
+
+
+***********************************
+
+sftp username@server name
+then we give password
+
+then change the directy which we have pass the file
+then change the directy which we have pass the file
+means remote 
+
+
+
+
+
+www.terrafluxsolutions.com
+
+
+
+
+
+*********************************
+rmcrmpt01 space issue
+
+***********************************************************
+Hi Tapsi,
+i have clean the FS /vobs.
+Please try again and let me know.
+
+he deleted FS/vobs files.
+
+
+***********************************************************************
+
+
+Script Location
+
+Script is available in integration test environment, details are given below.
+
+Server: crmsas52
+User: tibcoesb
+Path: /sbTibco/tibcoesb/adm_script/scripts/Monitor
+Script Name: Monitor_esb2billing.ksh
+Log files Name: Monitor_esb2billing.log
+Out files Name: Restart_report.out , Queue_status_report.out
+Logs/Out file Path: /sbTibco/tibcoesb/adm_script/scripts/Monitor/log
+
+
+Schedule 
+
+Script is scheduled in cron job, schedule details are given below.
+
+Day: Monday to Friday 
+Hours: 4AM CET – 8 PM CET 
+Frequency: Every 15 min
+
+************************************************
+order is working state that time we are not able to reprocess to eh console
+***********************************************************
+
+that what you wiil do 
+
+rerocess the orders in DB
+
+IF IDS ARE IN WORKING STATE(DONT DO IT WHEN IN TODO STATE)
+
+
+sqlplus bw_bill/bw_billpwdc@BWKDC    ---- FOR EHBILL
+sqlplus bw/bwpwdc@BWKdC              ---- FOR EH
+ 
+ 43790201
+
+
+
+43078184
+ 43404389
+select status from action where id='43809190';
+ 43809190
+update action set status='RP' where id='44817989';
+ 
+commit;
+42468024
+
+43404406
+43404389 
+
+Example - 
+
+tibcoesb@crmsas52-ESBINTH->$ sqlplus bw_bill/bw_billpwdc@BWKDC
+
+SQL*Plus: Release 11.2.0.2.0 Production on Tue Jan 28 16:09:31 2014
+
+Copyright (c) 1982, 2010, Oracle.  All rights reserved.
+
+
+Connected to:
+Oracle Database 11g Enterprise Edition Release 11.2.0.2.0 - 64bit Production
+With the Partitioning, Automatic Storage Management, OLAP, Data Mining
+and Real Application Testing options
+
+SQL> update action set status='RP' where id='18409574';
+
+1 row updated.
+
+SQL> commit;
+
+Commit complete.
+
+SQL> exit
+
+
+***********************************************
+Logs:-
+
+************************************************************
+Use alias logs  It moves to “/fsTibcoESB/tibcoesb/products/tibcobw/tra/domain/ESBINTH/application/logs“ path 
+
+
+CRMDA means ST
+CRMDH means IT
+
+************************************************
+
+
+
+more /sbtibco/ipeadm/adm_script/scripts/log/iProc_importProcsFromList.sh_20151222_192218.log ------------?iprocess logs
+
+**************************************************************
+[crmsas51.crmdC_OWS]/sbIas/iasmast->sftp cib^?^?^?^?^?
+[crmsas51.crmdC_OWS]/sbIas/iasmast->sftp siebmast@crmsec54
+Connecting to crmsec54...
+ssh: connect to host crmsec54 port 22: No route to host
+Connection closed
+[crmsas51.crmdC_OWS]/sbIas/iasmast->
+
+username:-siebmast
+SeiMast:pwd
+******************************************************
+ADP
+***************************************************
+
+once installed ADP we shuld restart 
+
+then check log file in bilvas scripts path
+and Type C
+then log
+
+ls -lrt | tail.
+**********************************************************
+Commerciale Router Error while submitting CNS_10 Event.
+_******************************************************
+
+we went to preticlur path which we have  screen shot
+then we go to particulr path means log file pathe ofter delete old log file 
+note:please keep on the todays log(some number)
+[crmpec53.CRMDH]/sbsieb/home/siebmast->/sbsieb/home/siebmast/scripts/delete_LOG.ksh > /sbsieb/home/siebmast/scripts/log/delete_LOG.log
+
+sever name:siebel server
+*************************************************************
+cc vob object
+************************************************************
+
+cleartool protect -chgrp Esb-dev xml
+
+cleartool mkdir -nc PAM_DEV  
+https://172.16.39.120/RDWeb/Pages/en-US/password.aspx \\
+
+cleartool rmelem 
+
+oper.cus.popola_tabella_PBSNEWRELEASES_POINT_ID102303.sql
+oper.adm.popola_tabella_PBSNEWRELEASES_POINT_ID102303.sql
+
+-Dlog4j.configuration=file:////sbTibcoServer/tibcoesb/products/tibcobw/bw/5.9/lib/log4jprop/fileproperties/log4j.esb2wideStub.properties
+-Dlog4j.configuration=file:////sbTibcoServer/tibcoesb/products/tibcobw/bw/5.9/lib/log4jprop/fileproperties/log4j.esb2wideStub.properties
+
+cleartool mkdir -nc xml
+
+aReQu8Ub
+jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(LOAD_BALANCE=on)(FAILOVER=ON)(ADDRESS=(PROTOCOL=tcp)(HOST=dbcrmdbs60.wind.root.it)(PORT=1580))(ADDRESS=(PROTOCOL=tcp)(HOST=dbcrmdbs61.wind.root.it)(PORT=1580)))(CONNECT_DATA=(SERVICE_NAME=ipedB)))
+
+jdbc:oracle:thin:@(DESCRIPTION=(ADDRESS_LIST=(LOAD_BALANCE=on)(FAILOVER=ON)(ADDRESS=(PROTOCOL=tcp)(HOST=dbcrmdbs62.wind.root.it)(PORT=1567))(ADDRESS=(PROTOCOL=tcp)(HOST=dbcrmdbs63.wind.root.it)(PORT=1567)))(CONNECT_DATA=(SERVICE_NAME=bwkdB)))
+
+space issue in CRMDH:
+*****************************************************
+
+ /sbsiebAS mount usage is at 87 %
+
+[crmpec53.CRMDH]/sbsieb/home/siebmast/scripts->ls -lrt
+total 36
+drwxr-xr-x 2 siebmast siebmast 4096 2016-03-02 14:22 log
+-rwxr-xr-x 1 siebmast siebmast  133 2016-03-02 15:51 nohup.out
+-rwxr-xr-x 1 siebmast siebmast  699 2016-04-29 01:00 logfile
+drwxr-xr-x 2 siebmast siebmast 4096 2016-05-06 13:28 aut
+-rwxr-xr-x 1 siebmast siebmast 2389 2016-05-12 12:29 monitor_spacemount.sh
+-rwxr-xr-x 1 siebmast siebmast  136 2016-05-17 15:08 spacemount.log
+-rwxr-xr-x 1 siebmast siebmast 4442 2016-05-24 13:11 delete_LOG.sh
+drwxr-xr-x 2 siebmast siebmast 4096 2016-05-24 13:19 backupScripts
+-rwxr-xr-x 1 siebmast siebmast    0 2016-06-09 01:00 output_corefiles
+
+[crmpec53.CRMDH]/sbsieb/home/siebmast/scripts->delete_LOG.sh
+
+**********************************************
+DML iwe have to install 9 :00 cet
+
+0 9 * * * /home/ccadmin/scripts/DML_Launcher.sh
+CC_ADM-ccadmin@rmcrmpt01-$
+
+
+/start.swe?SWEExtSource=WebService&amp;SWEExtCmd=Execute&amp;WSSOAP=1
+/start.swe?SWEExtSource=WebService&amp;SWEExtCmd=Execute&amp;WSSOAP=1
+
+/WIN_spcCNS_spcRecessoAmazon_spcBSEndpoint0
+
+RELEASE_ESB_ESBINTH
+RELEASE_ESB_ESBSYSG
+CURRENT_RELEASE_BILLING_ESBINTH
+CURRENT_RELEASE_BILLING_ESBBILF
+
+ESB3;esb2sap
+
+*******************************************
+
+[‎11/‎11/‎2016 11:48 AM] Govind, Ashish: 
+net user stefania.ferrarelli /expire:never Passw0rd123$ /add --> for creating user
+net localgroup Sie-dev stefania.ferrarelli /add --> for adding the user to specified group
+net user stefania.ferrarelli Passw0rd123$ --> for resetting password  
+
+************************************************
+
+
+Also please use below command to find if any other big files in other vobs mount and clean up the big files
+
+find . -type f -size +100000k -exec ls -lrt {} \;
+
+find . -type f -size +10000k -exec ls -lrt {} \;
+
+find /fsTibcoESB -type f -size +5M -printf "%s:%p\n" | sort -nr | head -10
+
+find  /fsTibcoESB -type f -size+100M | grep .log
+
+********************************************************
+
+find . -xdev -size +1000000k -exec ls -la {} \;
+
+********************************************************
+ c22799022833
+Adapter issue.
+
+/sbTibcoServer/tibcoesb/products/tibcobw/adapter/adadb/6.2/odbc 
+
+we have to change  odbc.in
+Hi Marco
+
+As per the skype discussion the odbc.ini file has been updated with 
+HostName =  fmssvil-scan
+and the adapter has been re-started.
+
+
+[BWKDB_ODBC]
+Driver=/sbTibcoServer/tibcoesb/products/tibcobw/adapter/adadb/6.2/odbc/lib/TIora25.so
+Description=DataDirect 5.3 Oracle Wire Protocol
+#AlternateServers=(HostName=dbcrmdbs63;PortNumber=1569)
+ApplicationUsingThreads=1
+ArraySize=60000
+AuthenticationMethod=1
+CachedCursorLimit=32
+CachedDescLimit=0
+CatalogIncludesSynonyms=1
+CatalogOptions=0
+ConnectionRetryCount=0
+ConnectionRetryDelay=3
+DefaultLongDataBuffLen=1024
+DescribeAtPrepare=0
+EnableDescribeParam=0
+EnableNcharSupport=0
+EnableScrollableCursors=1
+EnableStaticCursorsForLongData=0
+EnableTimestampWithTimeZone=1
+EncryptionMethod=0
+GSSClient=native
+HostName=dbcrmdbs62
+HostNameInCertificate=
+KeyPassword=
+KeyStore=
+KeyStorePassword
+LoadBalancing=0
+LocalTimeZoneOffset=
+LockTimeOut=-1
+LogonID=
+Password=
+PortNumber=1567
+ProcedureRetResults=0
+ReportCodePageConversionErrors=0
+ReportRecycleBin=0
+ServerType=0
+ServiceName=bwkdB
+TimestampeEscapeMapping=0
+TrustStore=
+
+Sure, we'll prepare the doc and share with you for review 
+
+*************************************************#!/bin/ksh
+
+cd  /sbTibcoServer/ipeusr/ipe11/ESBp/logs
+count3 =df -k | grep /sbTibcoServer | awk '{print $4}' | cut -d'%' -f1 
+if [[ $count3 -ge 95]]
+then
+        echo `date` > sw_warn.log 
+                            
+fi
+While deploying SRF we got below error for both H & C environment
+
+compile this objects again and release 
+
+
+
+
+mailList="prasad.gaddam@accenture.com","rishabh.a.rastogi@accenture.com","chitra.arumugam@accenture.com","ashish.govind@accenture.com","usha.rani.boni@accenture.com"
+
+9916187650
+
+
+
+
+esb2wona:
+
+
+/amazonorderdetails/services/AmazonOrderDetails/v3
+host:
+wona-pre.wind.root.it
+port 
+80
+
+****************************
+
+CVP is in working ----------------------3 hrs
+Check on Action ESB in failed----------------80  min
+WIND_CNS_Mobile order are not getting closed in H Environment---90 min
+P16 Execution System Test@IDC----- 2 hrs
+TEST IP16 - CNS_157 - Action Failed su console ESB---40 min
+ ID 101356 PHOENIX_CONS-ESB CONSUMER-SDCUP-SAP-ERP TC4--------30 min
+ scenario CRP_CC_16 - Errore in fase di esportazione dell'ord
+ 
+ ine--40 min
+ Defect -> 39262-----30 min
+ 
+ 
+ ***************************************************
+ 
+ space issue 
+ 
+ the issue is this file ./products/tibcobw/tra/domain/ESBINTH/heapdump.20170103.113414.725130.0001.phd 
+ 
+ when the machine is restarted this log will genereated
+ 
+ 
+ 
+ 
+ http://crmsas52.wind.root.it:10004/SAPOrderOutEndpoint0
+ 
+ 
+ *******************************************************************
+ 
+ Receive SAP Amazon Synch Result---------- check theis field
+ 
+ SAP issue
+ ***********************************
+ 
+ 
+ [‎2/‎17/‎2017 3:33 PM] Sharma, Tapsi: 
+the resolution steps: 1. Started STUB/esb2CnsAdp by killing the process zombie
+[‎2/‎17/‎2017 3:33 PM] Sharma, Tapsi: 
+2. started the Adapter in admin
+[‎2/‎17/‎2017 3:33 PM] Sharma, Tapsi: 
+3. enabled the service in console esb2CnsAdp
+[‎2/‎17/‎2017 3:33 PM] Sharma, Tapsi: 
+4. deployed the same
+
+
+********************************************
+
+update action set status ='RP' where id=20742305;
+20742305
+
+
+update action set status ='SA' where id=20739469;
+
+
+
+
+ct-setenv TEST4.17
+ct-setenv INTTEST4.17
+ct-setenv RELEASE4.17
+ct-setenv TEST_BUILD4.17
+ct-setenv SHIP4.17
+
+ct-setenv TRAINING4.17
+
+
+$ rm -rf /vobbcs/repo_backup/Saturday/views/BACKUP_TEST43.0.tar.gz
+$ rm -rf ./vobbcs/repo_backup/Saturday/views/BACKUP_TEST34.0.tar.gz
+rm: remove ./vobbcs/repo_backup/Saturday/views/BACKUP_TEST34.0.tar.gz (yes/no)? ^C$
+$ rm rf ^C
+$ rm -rf /vobbcs/repo_backup/Saturday/views/BACKUP_TEST34.0.tar.gz
+$ rm -rf /vobbcs/repo_backup/Saturday/views/BACKUP_TEST33.0.tar.gz
+$ rm -rf /vobbcs/repo_backup/Saturday/views/BACKUP_TEST35.0.tar.gz
+$ rm -rf /vobbcs/repo_backup/Saturday/views/BACKUP_TEST29.1.tar.gz
+$ rm -rf /vobbcs/repo_backup/Saturday/views/BACKUP_TEST32.0.tar.gz
+$ rm -rf /dbaadm/sybadm/backupcollaudo/backupnewrelease/CRMEMST.T2_MIDDLEWARE.20141023.dump.gz
+$ df -k
+Filesystem            kbytes    used   avail capacity  Mounted on
+
+
+
+***************************************************
+
+[‎3/‎29/‎2017 6:48 PM] Rastogi, Rishabh A.: 
+inside /home/ccadmin/scripts/alertscr/sendAlertMail.sh script
+Billing T2 Database something will be there
+[‎3/‎29/‎2017 6:48 PM] 
+one sec
+[‎3/‎29/‎2017 6:48 PM] 
+dude
+[‎3/‎29/‎2017 6:49 PM] Rastogi, Rishabh A.: 
+but is uses log file sent by some script in some billing server that i dont remember as Tapsi did it
+
+**************************
+/sbarborut/arborut2/Admin/scripts/T2spacecheck
+bilvas51 arborut2
+
+****************************************************
+
+how to zip the file
+gzip lov.tar
+
+how to create tar file for all files
+
+tar -cvf lov.tar *
+********************************************************
+
+
+[‎6/‎8/‎2017 11:22 AM] Rohit, Kumar A.: 
+MIG/esb2saphttpOuthost
+MIG/esb2sap/httpOut/port
+***********************************************
+http://crmsas52.wind.root.it:8081/esb2sap/test/stub/wsSAPOrderManagementInvioOrdine-service0.serviceagent/MI_CRM_ODL_sync_outBEndpoint0
+
+http://rmicrm58.wind.root.it:8081/esb2sap/test/stub/wsSAPOrderManagementInvioOrdine-service0.serviceagent/MI_CRM_ODL_sync_outBEndpoint0
+
+
+
+
+***************************************************
+[‎6/‎8/‎2017 4:25 PM] 
+errorDescription: The Http Server replied with a 4XX status code
+BwClassException: HttpClientException
+ProcessStack: esb2sap/process/interfaceOut/bwSapOut.process/GeneralOutboundITF>esb-architecture/process/gst/bwGeneralOutboundITF.process/Group/JDBC Transaction/BusinessServices>esb2sap/process/businessService/OrderManagement/bwBSInvioOrdineOut.process/ParseCMF/SOAPRequestReply
+exceptionType: technical
+StackTrace:
+Job-7012 Error in [esb2sap/process/businessService/OrderManagement/bwBSInvioOrdineOut.process/ParseCMF/SOAPRequestReply]
+The Http Server replied with a 4XX status code 
+[‎6/‎8/‎2017 4:27 PM] Negi, Sakshi: 
+ok
+$_globalVariables/ns1:GlobalVariables/MIG/esb2sap/service/endpointUrl 
+
+
+
+***********************
+enable the log file
+/fsTibcoESB/tibcoesb/products/tibcobw/tra/domain/ESBINTH/application/esb2wide
+
+
+select 'GRANT '||nvl(decode(SELECT_PRIV,'Y','SELECT','')
+               ||decode(INSERT_PRIV,'Y',',INSERT','A',',INSERT','')
+               ||decode(UPDATE_PRIV,'Y',',UPDATE','A',',UPDATE','')
+               ||decode(DELETE_PRIV,'Y',',DELETE','A',',DELETE',''),'EXECUTE')
+               ||' ON '||TABLE_NAME||' TO '||GRANTEE||';'
+from pkg_privileges 
+where TABLE_NAME in ('WIN_SERIALNUM2INTID')
+where  grantor ='SIEBEL' and grantee in ('RDBOWN','ESBAPP')  
+
+
+select 'GRANT '||nvl(decode(SELECT_PRIV,'Y','SELECT','')
+               ||decode(INSERT_PRIV,'Y',',INSERT','A',',INSERT','')
+               ||decode(UPDATE_PRIV,'Y',',UPDATE','A',',UPDATE','')
+               ||decode(DELETE_PRIV,'Y',',DELETE','A',',DELETE',''),'EXECUTE')
+               ||' ON '||PKG_WRAPPER_NTW||' TO '||GRANTEE||';'
+from pkg_privileges 
+where PACKAGE in ('PKG_WRAPPER_NTW')
+where  grantor ='S_OFFERING' and grantee in ('ESBAPP')
+
+
+***************************************************
+
+select 'GRANT '||nvl(decode(SELECT_PRIV,'Y','SELECT','')
+               ||decode(INSERT_PRIV,'Y',',INSERT','A',',INSERT','')
+               ||decode(UPDATE_PRIV,'Y',',UPDATE','A',',UPDATE','')
+               ||decode(DELETE_PRIV,'Y',',DELETE','A',',DELETE',''),'EXECUTE')
+               ||' ON '||TABLE_NAME||' TO '||GRANTEE||';'
+from table_privileges 
+where TABLE_NAME in ('WIN_SERIALNUM2INTID')
+where  grantor ='SIEBEL' and grantee in ('RDBOWN','ESBAPP')  
+
+*******************************************************************
+
+
+create synonym PKG_WRAPPER_NTW for S_OFFERING.PKG_WRAPPER_NTW
+
+create synonym PKG_WRAPPER_NTW for S_OFFERING.PKG_WRAPPER_NTW;
+;
+
+drop synonym PKG_WRAPPER_NTW;
+
+
+***********************************
+
+table space:
+
+[‎7/‎3/‎2017 1:03 PM]  Kanagaraj, Nithya:  
+No Title 
+select 
+   a.tablespace_name,
+    a.bytes_alloc/(1024*1024) "TOTAL ALLOC (MB)",
+   a.physical_bytes/(1024*1024) "TOTAL PHYS ALLOC (MB)",
+    nvl(b.tot_used,0)/(1024*1024) "USED (MB)",
+    (nvl(b.tot_used,0)/a.bytes_alloc)*100 "% USED"
+from 
+   (select 
+      tablespace_name,
+       sum(bytes) physical_bytes,
+      sum(decode(autoextensible,'NO',bytes,'YES',maxbytes)) bytes_alloc
+     from 
+      dba_data_files
+    group by 
+      tablespace_name ) a,
+    (select 
+      tablespace_name, 
+      sum(bytes) tot_used
+     from 
+      dba_segments
+    group by 
+      tablespace_name ) b
+ where 
+   a.tablespace_name = b.tablespace_name (+)
+and 
+   a.tablespace_name not in 
+   (select distinct 
+       tablespace_name 
+    from 
+       dba_temp_files)
+and 
+   a.tablespace_name ='EIM_DATA_LOAD'
+ order by 1; 
+ 
+ **********************
+ 
+select 
+   a.tablespace_name,
+    a.bytes_alloc/(1024*1024) "TOTAL ALLOC (MB)",
+   a.physical_bytes/(1024*1024) "TOTAL PHYS ALLOC (MB)",
+    nvl(b.tot_used,0)/(1024*1024) "USED (MB)",
+    (nvl(b.tot_used,0)/a.bytes_alloc)*100 "% USED"
+from 
+   (select 
+      tablespace_name,
+       sum(bytes) physical_bytes,
+      sum(decode(autoextensible,'NO',bytes,'YES',maxbytes)) bytes_alloc
+     from 
+      dba_data_files
+    group by 
+      tablespace_name ) a,
+    (select 
+      tablespace_name, 
+      sum(bytes) tot_used
+     from 
+      dba_segments
+    group by 
+      tablespace_name ) b
+ where 
+   a.tablespace_name = b.tablespace_name (+)
+and 
+   a.tablespace_name not in 
+   (select distinct 
+       tablespace_name 
+    from 
+       dba_temp_files)
+ order by 1;  
+ 
+
+********************
+siebel EP in IT
+
+/start.swe?SWEExtSource=WebService&amp;SWEExtCmd=Execute&amp;WSSOAP=1
+
+crmpiw50.wind.root.it
+8001
+
+
+siebel currect EP:
+/eai_esb_ita/start.swe?SWEExtSource=AnonWebService&amp;SweExtCmd=Execute
+/eai_esb_ita/start.swe?SWEExtSource=AnonWebService&SweExtCmd=Execute
+/eai_esb_ita/start.swe?SWEExtSource=AnonWebService&SweExtCmd=Execute
+
+/eai_esb_ita/start.swe?SWEExtSource=AnonWebService&SweExtCmd=Execute
+/eai_esb_ita/start.swe?SWEExtSource=AnonWebService&SweExtCmd=Execute
+
+/eai_esb_ita/start.swe?SWEExtSource=AnonWebService&SweExtCmd=Execute
+
+
+8181
+*****************************************
+
+esb2CVp always we are keep the INT/esb2cvp and ESB/stubcvp in eunning mode
+
+
+SOAP issue SUB/esb2cvp should be running mode
+
+************************************************************
+
+
+sieble PORT: 8200
+***************
+
+[‎7/‎21/‎2017 12:05 PM]  Singu, Venkatesh:  
+ crm-ocv-m-72.wind.root.it 
+pswd: git*2016
+gith path: /git_repo 
+ 
+****************************************
+
+PROD issue :
+ 
+select * from action where status='FA'
+and system='siebel'
+and name='Check SMS'
+and ts_created>sysdate-1;
+
+select id from action where ---name='MSISDN Management for Mnp Donor' and 
+system='siebel'
+and status='FA'
+and ts_created >=to_date('31/07/2017 00:00:00','dd/mm/yyyy hh24:mi:ss');  
+
+main:-
+
+select system, name, count(*) from action 
+where status='FA' 
+and ts_created >=to_date('31/07/2017 14:00:00','dd/mm/yyyy hh24:mi:ss')
+group by system,name
+order by 3 desc;
+
+
+select id from action where name='MSISDN Management for Mnp Donor' and system='esb'
+and status='FA'
+and ts_created >=to_date('23/07/2017 14:00:00','dd/mm/yyyy hh24:mi:ss'); 
+****************************
+
+
+http://crmsas56.wind.root.it:20127/VerificaCoperturaEndpoint 
+
+********************************************
+
+[‎8/‎21/‎2017 4:31 PM]  Rastogi, Rishabh A.:  
+steps:
+copy iprocess xfr and xml to /fsTibcoESB/ipeadm/extract/ESB_DEV/iProcess 
+update the version by 1 in latest xml
+go to path /fsTibcoESB/ipeadm/extract/ESB_DEV/iProcess/list 
+ 
+[‎8/‎21/‎2017 4:32 PM]  Rastogi, Rishabh A.:  
+update any existing list file with details
+go to scr path
+execute iProc_importProcsFromList.sh listFilename
+done
+ 
+ 
+ 
+ [‎8/‎21/‎2017 4:35 PM]  Rastogi, Rishabh A.:  
+iProc_impProc.sh PINORDER 0.276
+Unlocking procedure: PINORDER
+PL/SQL procedure successfully completed. No errors.
+Importing a Procedure
+Checking Procedure  'PINORDER':
+
+
+Importing Procedure  'PINORDER':
+
+**** COMMIT(&publish):  Procedure:PINORDER
+
+
+************************************************************
+
+
+Procedure PINORDER successfully imported. IMPORT OK 
+then for checking
+execute this
+ipeadm@rmicrm58-ESBSYST-$ sqlplus -S swpro1/staffpro1@$ORACLE_SID << EOF
+select concat(concat(PV.MAJOR_VERS, '.'), PV1.MINOR_VERS)
+> select concat(concat(PV.MAJOR_VERS, '.'), PV1.MINOR_VERS)
+> from proc_version PV, proc_version PV1, proc_index PI
+> where PI.PROC_NAME='PINORDER'
+> and PV.proc_id = PI.proc_id
+> and PV1.proc_id = PI.proc_id
+> and PV.PV_STATUS=0 and PV1.PV_STATUS=0;
+> exit;
+> EOF
+
+CONCAT(CONCAT(PV.MAJOR_VERS,'.'),PV1.MINOR_VERS)
+--------------------------------------------------------------------------------
+0.276 
+it will show the latest version present in DB
+should be the same with what we updated
+ 
+
+
+
+http://doo2ui-prod-devops.ocp-app-bz-1.windtre.it/DOOWEB/
+select count (*) from action where id='44817957';
+
+
+
+[crmect51 CRMUT]/sbsiebASLog/AGENT_OIC_TRAINING/agenthome/thirdparty# ps -ef |grep -v "grep"| grep "connectivityagent.jar"
+siebmast 2457500       1  1 14:16 pts/2    00:00:31 /sbsiebASLog/jdk-17.0.8/bin/java -Xms1G -Xmx1G -jar /sbsiebASLog/AGENT_OIC_TRAINING/connectivityagent.jar
+[crmect51 CRMUT]/sbsiebASLog/AGENT_OIC_TRAINING/agenthome/thirdparty#
+
+
