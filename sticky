@@ -1,0 +1,334 @@
+TEST ATF: https://ocp-mgm-2.windtre.it/console/
+ATF
+                              
+println(hudson.util.Secret.fromString("6EsuD/M9jLxVnz/nl4aPxE9VXZ2X2oI/VByUMZEkRvg="))
+                                   
+esbownpwdi
+rmcrmb13-ITBADP-/sbadpbill/adpbillusr/ESBUPGIT/script/log-
+prasad.gaddam01.con@windtre.it
+Pranay@2022
+windtre\c-gaddamp01
+
+Wind3!    --> keepass
+Arunamma@123
+WIND.TA.PROD@accenture.com
+
+svmon -O unit=auto
+
+[1:06 PM] Grazioli, Marco
+    SIEBEL SIT OCI is connect to ESB INT
+​[1:06 PM] Grazioli, Marco
+    STOCI is ocnnect to ESB ST Env
+•	Siebel SIT OCI (Integration Test) Env is connect to ESB INT (EH Console  http://crmsas52:47850/EH/wccEH.html)
+•	Siebel ST (System Test) OCI Env is connect to ESB ST (EH Console http://rmicrm58:37850/EH/wccEH.html)
+https://adtjira.accenture.com/browse/WINDTRE-133173
+**************************************
+Openshift:
+
+devopsuser01
+devopsuser01$1
+https://ocp-mgm-1.windtre.it/
+********************************
+/FsDevOps/jenkins_work/ESB004_DEPLOY_TIBCO_PROJECT_NEW/builds/
+./tibemsadmin -server tcp://crmsas52.wind.root.it:37222 -user admin -password admin
+
+Billing:
+4.54 --> EVO
+4.53--> FIX
+svmon -O unit=auto
+12
+4:30
+ELvya tech Pvt ltd
+
+DATA paltform
+
+Monday and fridday 1 time(2:30)
+2:30
+5:30
+Subject name:
+WEEk change on tuesday only
+MON --> PROD
+remianing anni days -- TEST or INT
+
+A50332
+4310
+
+wrmcrmcrpg.wind.root.it
+for future requests(only for CRM installation), let’s remember to add in CC the mailing list  w3-im-acn-governance@accenture.com
+start mail:
+
+Salve,
+stiamo iniziando con le attività in produzione.
+
+Grazie,
+WIND.TA.PROD
+
+Finish mail:
+
+Ciao,
+L'installazione è completata in Prod per BILLING.
+
+Grazie
+WIND.TA.PROD
+sqlplus bw_bill/bw_billpwdc@BWKDC    ---- FOR EHBILL
+sqlplus bw/bwpwdc@BWKdC              ---- FOR EH
+
+ST:
+sqlplus bw/bw@BWKdB
+
+ update action set status='RP' where id='51001331032';
+
+ commit;
+
+
+[11:37 AM] Syed, Ijaj A.
+    isyed
+​[11:37 AM] Syed, Ijaj A.
+    TaAdmin2021!
+
+[1:49 PM] Caruso, Giuseppe
+    psw --> TaAdmin2021!
+​[1:49 PM] Caruso, Giuseppe
+    
+user --> c-gaddamp
+
+SAP:
+sqlplus esbapp/esbapp123i@(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(Host=sptdas01.wind.root.it)(Port=1525)))(CONNECT_DATA=(SID=ciw)))
+
+
+56702033
+
+WinTmng2021!
+
+LOG_CALL_ESB/DISCARD
+truncate table log_call_esb;
+
+
+[10:49 AM] Syed, Ijaj A.
+Administrator
+
+[10:50 AM] Syed, Ijaj A.
+!Nemesi2021?
+
+[10:50 AM] Syed, Ijaj A.
+jenkins
+
+
+grep -i error *.log
+grep -i fail *.log
+grep -i fatal *.log
+grep -i msg *.log
+ls -la | tail -100f
+
+
+sh
+$ ls -lrt *.sql | wc -l
+ ls -lrt *.log | wc -l
+$ ls -lrt 140_R4.59_ID109209.PACKAGE_COMPONENT_MEMBERS.CatUni.sql*.log
+$ grep -i msg 050_R4.59_ID108487.PACKAGE_COMPONENT_MEMBERS.CatUni.sql*.log
+
+
+
+[10:50 AM] Syed, Ijaj A.
+WinTmng2021!
+
+*************************************************************************
+
+crm-devops-m-71.wind.root.itsandbox esb on-prem(BW 5.9)
+WOFKCRMDEVOPS01.w3cp.windtre.it sandbox esb oci(BW 5.14)
+
+Deepa Hosur
+Kajal C. Kumari
+Sambhram Shetty
+Siddhinath Taldhi
+RAJESHWARI VIJAYBHASKARAN
+
+Regards,
+Pooja
+
+[8:56 PM] Marcone, Celestino
+on hotfix oci we have only siebel-rcv like in st and int oci
+
+[8:56 PM] Marcone, Celestino
+on hotfix on premise we have all bw
+
+[8:56 PM] Gaddam, Prasad
+ok ok
+
+[8:56 PM] Gaddam, Prasad
+got it
+
+[8:56 PM] Marcone, Celestino
+if they ask a check on hotfix oci
+
+[8:57 PM] Marcone, Celestino
+we have to see the admin url with b2b password
+
+
+C:\Users\prasad.gaddam\Downloads\mtputty
+
+SAND BOX:
+crm-devops-m-73.wind.root.i
+
+
+
+
+Shetty, Sambhram3/17 1:16 PM
+
+URL: https://ocp-mgm-1.windtre.it/console/
+
+USER: produser01
+
+PASS: ocp2018
+
+above is for prod by Shetty, Sambhram
+Shetty, Sambhram
+3/17 1:16 PM
+
+above is for prod
+
+ok by Gaddam, Prasad
+Gaddam, Prasad
+3/17 1:17 PM
+
+ok
+
+DEV/TEST: URL: Link https://ocp-mgm-2.wind... by Shetty, Sambhram
+Shetty, Sambhram3/17 1:17 PM
+DEV/TEST:
+
+URL: https://ocp-mgm-2.windtre.it/console/
+
+USER: devuser01
+
+PASS: ocp2018
+
+activemq-openshift(if required) >> atfprocessor >> atfnotifier >> atfcore >> aft2gw >> atf-generatorbe >> atf-generator
+
+
+println(hudson.util.Secret.fromString("OCyJPeSVtgM//JG+V8koZqnnR0HYfAsyMkGYoj4g89Q=").getPlainText())
+
+
+C:\Users\prasad.gaddam\AppData\Local\Kaltura\Capture\Recordings\
+
+
+
+ST BAU, ST BSS and TRAINING 
+mobileResource.STBSSUPGESB.xml --> OCI 
+mobileResource.STUPGESB.xml --> on-primisese
+
+
+sqlplus ESBAPP/******@vasdbs-tp.wwsi:1542/NPSVd
+
+mobileResource.TRNUPGESB.xml
+
+
+7am shift    -> mahesh for this tue, wed.
+3.30 to 6 pm -> sarika tue, wed.
+perf on tue night -> ijaj
+perf on wed night -> sam
+9pm installations at night this week -> rajeshwari.
+friday early morning ->> sanjana.
+
+/home/devops/DEVOPS/BUILD//QUALITY/
+
+Test Env, Tuesday to Thursday at 11 and at 14, and only at 11 on Friday;
+
+Prod Env, every Monday starting to 18.30 italian time
+
+
+esb2WonaStub
+esb2dmsStub
+esb2wideStub
+oarStub
+esb2assurant
+esb2drms
+esb2gepos
+esb2geposAdp
+esb2ocv
+esb2wona
+{"status":"KO","reason":" ","file_name":"billing-batch"},
+{"status":"KO","reason":" ","file_name":"billing-ipConnector"},
+{"status":"KO","reason":" ","file_name":"billing2crmAdp"},
+{"status":"KO","reason":" ","file_name":"billing2crm_MigTool"},
+
+INT OCI
+http://esbcrma01.w3cp.windtre.it:46050/administrator/servlet/tibco_administrator?
+
+ST OCI
+http://esbcrmi01.w3cp.windtre.it:36050/administrator/servlet/tibco_administrator?
+
+HOTFIX OCI
+http://esbb2ba01.w3cp.windtre.it:26050/administrator/servlet/tibco_administrator?
+
+PREPROD OCI
+http://esbcrm01pt.w3cp.windtre.it:26050/administrator/servlet/tibco_administrator?
+
+PROD OCI
+http://esbcrm01.w3cp.windtre.it:26050/administrator/servlet/tibco_administrator?
+
+Training OCI
+http://esbcrmi02.w3cp.windtre.it:46050/administrator/servlet/tibco_administrator?
+
+On the BSS Evo ESB console http://esb-bwip-a-74.wind.root.it:43050/administrator/servlet/tibco_administrator?c.fid=com_tibco_administrator_ApplicationFrame_2040817906 there are several 
+
+we crosse-checked the BAU console http://esb-tibco-a-72.wind.root.it:40050/administrator/servlet/tibco_administrator?c.fid=com_tibco_administrator_ApplicationFrame_185986036 and those instances are there and running.
+
+Psswrd09
+
+    lunedì – Monday
+    martedì – Tuesday
+    mercoledì – Wednesday
+    giovedì – Thursday
+    venerdì – Friday
+    sabato – Saturday
+    domenica – Sunday
+
+clear the space:
+
+alter table eventi shrink space;
+
+
+Z009A840 
+
+SIT
+ sqlplus bw/bwpwdc@bwkd_pdbint1
+
+https://accentureplc.service-now.com/clientportal?id=clientportal_main_home
+Utenza: windtre\aft_user 
+pwd w3: P4sswrdp06$
+
+nonprod subnet 10.152.88.0/22
+SIEBEL SANDBOX
+WOFKSIEBTOOL34.w3cp.windtre.it 
+
+crm-devops-m-71 or crm-devops-m-72 
+INT ATF
+activemq-5c55984b4d-gplbh                                 1/1     Running   0          26m
+atf2core-6b6fc746db-47t94                                 1/1     Running   0          26m
+atf2gw-85d5965c75-sd7gm                                   1/1     Running   0          26m
+atf2notifier-86cc55ff58-6rc2s                             2/2     Running   0          26m
+atfprocessor-588dbcf69-8smd2                              1/1     Running   0          26m
+ curl -v telnet://osspam-db-noprod.aws.windtre.it:1521
+[10/02 15:34] Mandar Gokhale, Pradyumna
+https://urldefense.proofpoint.com/v2/url?u=https-3A__maileranalytics.accenture.com_Log_Log-3Flink-3D-255bhttps-253a-252f-252fmyflexiblebenefits.accenture.com-252f-255d-26tranId-3D100022740-26subj-3DmyFlexibleBenefitspiano201920-2DHaigi-25C3-25A0usatoiltuobudget-26userPk-3D-257busrpk-257d-26email-3D-257bemail-257d&d=DwMFAw&c=3NBXXUKukgVIjVXwt0Rin6h0GAxIKZespWWvcJx4w9c&r=v7DorgdKfS0GOpPIqPugbCYX_0aw4aga7JcGjKmvRIS2RoYJERlBmCt5i8v-8XjE&m=X6J2mRbr7geigg31RHQOee1aRVn4P1F2iRskrV3t8ks&s=nTK3Kav3N02p9S24yorjJtwXbNLEm0Bqn2kEi2RqMPE&e=
+jenkins 
+WinTmng2021!
+
+	PACKAGE	DEPLOY	PACKAGE	DEPLOY	PACKAGE	DEPLOY
+ST BAU	02:00	02:30	12:30	13:00	16:00	16:30
+SIT BAU 	07:30	08:00	13:00	13:30	18:00	18:30
+SIT BSS	08:00	08:30	13:30	14:00	18:30	19:00
+ST BSS	02:30	03:00	14:00	14:30	19:00	19:30
+
+clear cathe of devops:-
+[20:39] Terzani, Andrea
+un "banale" -sh-4.2$ gitlab-rake cache:clear
+
+/FsDevOps/jenkins_work/BILLUPG001_DDL_DML_PROCEDURE_POSTGRESQL/builds/4507/log
+
+kubectl -na qu-devops-gcp  exec -ti atfprocessor-59999668bb-vqcx5 bash
+echo '10.88.64.13  webapp-ask-noprod-azfk-fe webapp-ask-noprod-azfk-fe.azurewebsites.net webapp-ask-noprod-azfk-fe.scm.azurewebsites.net' >> /etc/hosts
+echo '10.88.64.12  webapp-ask-noprod-azfk-be webapp-ask-noprod-azfk-be.azurewebsites.net webapp-ask-noprod-azfk-be.scm.azurewebsites.net' >> /etc/hosts
+
+Paraphrasing check fluence 
